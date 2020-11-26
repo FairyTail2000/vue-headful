@@ -27,7 +27,7 @@
     "dev": "(cd demo; poi)",
     "build": "babel src/ --presets babel-preset-env --out-dir dist/",
     "build-ts": "tsc",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build-ts"
   },
   "dependencies": {
     "headful": "^1.0.3"
